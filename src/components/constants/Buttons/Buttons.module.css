@@ -1,0 +1,33 @@
+.Buttons {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 200px;
+    padding: 7px 25px;
+    border: none;
+    background-color: #e15e2ac7;
+    color: white;
+    box-shadow: 0px 1px 7px #b54519;
+    cursor: pointer;
+}
+
+.Buttons:hover{
+    transition: .1s;
+    background-color: #ff4700;
+}
+
+.Buttons:active{
+    transform: translateY(2px);
+}
+
+.Active{
+    background-color: #ff4700;
+}
+
+@media screen and (max-width: 768px) {
+    .Buttons {
+        font-size: 14px;
+        max-width: 120px;
+        padding: 5px 15px;
+    }
+}

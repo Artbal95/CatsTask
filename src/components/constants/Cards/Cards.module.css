@@ -1,0 +1,14 @@
+.Cards{
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background: chocolate;
+    color: #fff;
+}
+
+.Cards img{
+    object-fit: cover;
+}
